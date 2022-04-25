@@ -37,7 +37,7 @@ for($i=0; $i<$k; $i++)
 //     $centroid[] = $data[$c];
 // }
 
-// memilih centroid 
+// memilih centroid manual
 $centroid = [
     [3, 12],
     [7, 6],
