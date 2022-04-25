@@ -37,6 +37,9 @@ foreach($centroid_keys as $c)
     $centroid[] = $data[$c];
 }
 
+// melihat centroid
+print_r($centroid);
+
 $loop = true;
 $max_iteration = 100;
 $current_iteration = 1;
