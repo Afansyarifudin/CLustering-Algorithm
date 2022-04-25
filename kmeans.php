@@ -31,13 +31,20 @@ for($i=0; $i<$k; $i++)
 }
 
 // pilih centroid scr random
-$centroid_keys = array_rand($data,$k);
-foreach($centroid_keys as $c)
-{
-    $centroid[] = $data[$c];
-}
+// $centroid_keys = array_rand($data,$k);
+// foreach($centroid_keys as $c)
+// {
+//     $centroid[] = $data[$c];
+// }
+
+// memilih centroid 
+$centroid = [
+    [3, 12],
+    [7, 6],
+];
 
 // melihat centroid
+echo "Centroid yang dipilih <br />";
 print_r($centroid);
 
 $loop = true;
